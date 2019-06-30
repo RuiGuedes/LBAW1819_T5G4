@@ -1,0 +1,36 @@
+a {
+    font-family: 'Comfortaa', sans-serif;
+    color:whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+body #home * {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#auth-zone , #auth-zone > .row {
+    min-height: 84%;
+}
+
+#auth-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.2rem;
+}
+
+#auth-zone span {
+    color: var(--brand-color);
+}
+
+.sep-bar > div:first-child , .sep-bar > div:last-child {
+    margin: 0.75em;
+    border-top: solid var(--light-grey-color) 2px;
+}
+
+.register p {
+    font-style: italic;
+    font-size: 0.9em;
+}

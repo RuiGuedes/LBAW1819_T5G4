@@ -1,0 +1,26 @@
+#thread-content > div:first-child {
+    background-color: var(--light-brand-color);
+}
+
+#thread-content > div {
+    border: solid var(--dark-grey-color) 1px;
+}
+
+#thread-content > .card a {
+    color: black;
+    text-decoration: none;
+}
+
+#thread-content > .card a:hover h6 {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+#thread-content > .card i {
+    text-decoration: none;
+    color: black;
+}
+
+#thread-content > .card i:hover {
+    color: var(--brand-color);
+}

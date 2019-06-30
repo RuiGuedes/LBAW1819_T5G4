@@ -1,0 +1,128 @@
+#main-content.row{
+    height: calc(100vh - 160px);
+}
+
+.profile-img-team {    
+    object-fit: cover;
+}
+
+#upload-profile-picture {    
+    position: absolute;
+    transform: translate(150%, -200%);    
+    opacity: 0;
+    transition: 1s;
+}
+
+#profile-picture:hover > #profile-img {
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: var(--light-grey-color);
+}
+
+#profile-picture:hover #upload-profile-picture {
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#upload-profile-picture > i {
+    font-size: 2em;
+}
+
+#upload-profile-picture > p {
+    font-size: 1.25em;
+}
+
+#upload-profile-picture:hover {
+    cursor: pointer;
+    color: var(--brand-color);
+}
+
+#edit-biography {
+    color: var(--dark-grey-color);    
+}
+
+#edit-biography:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#sub-menu a.navbar-brand {
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    border-bottom-right-radius: 1em;
+}
+  
+#name-container h5, div.main-tab h5, div.main-tab h6  {
+    margin-top: .5rem;
+}
+
+div.main-tab h4 span {
+    text-decoration-line: underline;
+    color: var(--brand-color);
+}
+
+div.main-tab {
+    background-color: inherit;
+
+}
+
+#name-container, #biography {
+    background-color: white;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 0.35em;
+}
+
+#title h5, #biography h5 {
+    font-weight: bold;
+}
+
+#action-button a {
+    background-color: lightgray;
+    border: solid rgb(134, 134, 134) 1px;
+    color: white;
+}
+
+#action-button a:hover {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+
+.profile.card a, #name-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+.card a.float-right i, .profile a.float-right i {
+    font-size: 1.3em;
+}
+
+div.main-tab {
+    border: 2px solid var(--brand-color);
+}
+
+@media (min-width: 992px) {
+    #side-profile {
+        position: fixed;
+        right: 0em;
+        top: 123px;
+        height: calc(100vh - 200px);
+        border-left: 1px solid var(--light-grey-color);
+    }
+}
+
+#background-button a {
+    font-size:1.8em;
+    color: black;  
+}
+
+#background-button a:hover, #project.card a:hover, .profile.card .card-body a:hover , #name-container a:hover {
+    color: var(--brand-color);
+    cursor: pointer;
+}
+
+#background-button {
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+}
